@@ -12,7 +12,7 @@ const DefaultIcon = L.icon({
 
 L.Marker.prototype.options.icon = DefaultIcon;
 
-// ✅ Define type for parking spot
+// Define type for parking spot
 type ParkingSpot = {
   id: number;
   name: string;
